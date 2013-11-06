@@ -19,7 +19,12 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         JOptionPane.showMessageDialog(null, "Ini adalah project repo japa!");
-		JOptionPane.showMessageDialog(null, "Hanya untu latihan pemahaman Git :)");		
+		JOptionPane.showMessageDialog(null, "Hanya untu latihan pemahaman Git :)");	
+
+		KelasAnak ka = new KelasAnak();
+        ka.setNama("Joko");
+        ka.setUmur(17);
+        JOptionPane.showMessageDialog(null, ka.getNama()+" "+ka.getUmur());
     }
 
 }
